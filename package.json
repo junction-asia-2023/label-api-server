@@ -1,0 +1,25 @@
+{
+  "name": "junction-api",
+  "version": "1.0.0",
+  "description": "api server",
+  "main": "src/app.js",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "node src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/junction-asia-2023/label-api-server.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/junction-asia-2023/label-api-server/issues"
+  },
+  "homepage": "https://github.com/junction-asia-2023/label-api-server#readme",
+  "dependencies": {
+    "@koa/cors": "^4.0.0",
+    "@koa/router": "^12.0.0",
+    "koa": "^2.14.2"
+  }
+}
